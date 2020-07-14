@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/citys")
+@RequestMapping("/cities")
 @Api(value = "城市API微服务接口",description = "城市API微服务接口")
 public class CityController {
 
